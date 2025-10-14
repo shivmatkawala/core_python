@@ -1,0 +1,16 @@
+OPERATORS:-
+    5 + 10 = 15  ===> Expression
+    5, 10, 15 ===> Operands
+    +, = ===> Operators
+
+    # Expressions are combination of Operands and Operators.
+
+    TYPES OF OPERATORS:-
+        1) Arithmetic Operators
+        2) Comparison Operators
+        3) Membership Operators
+        4) Bitwise Operators
+        5) Logical Operators
+        6) Assignment Operators
+        7) Ternary Operators
+        
