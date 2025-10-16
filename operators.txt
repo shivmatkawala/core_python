@@ -9,8 +9,8 @@ OPERATORS:-
         1) Arithmetic Operators
         2) Comparison Operators
         3) Membership Operators
-        4) Bitwise Operators
-        5) Logical Operators
-        6) Assignment Operators
-        7) Ternary Operators
-        8) Identity Oprator
+        4) Logical Operators
+        5) Assignment Operators
+        6) Ternary Operators
+        7) Identity Oprator
+        8) Bitwise Operators
