@@ -194,3 +194,97 @@ l1 = [12, 34, 56 ,78 ,90, 45]
 # if the difference between the biggest number of l1 
 # and smallest number of l1 is greater than 50 --> "huge difference"
 # if difference is less than 50 or equal to 50 then say "small difference"
+
+
+# if (max(l1) - min(l1)) > 50:
+#     print("Huge Difference")
+
+# else:
+#     print("Small Difference")
+
+
+#------------------------------------
+# write a program where you take input from user 
+# as a number,
+        # if number is poitive and integer and even:
+            # print "Positive even integer"
+        
+        # if number is positive and intege and odd:
+            # print "Positive odd integer"
+        
+        # if number is negative and integer and even:
+            # print "Negative even integer"
+        
+        # if number is negative and integer and odd:
+            # print "Negative odd ineger"
+
+        # if number is positive and float and even:
+            # print "Positive even float"
+        
+        # if number is positive and float and odd:
+            # print "Positive odd float"
+
+        # if number is negative and float and even:
+            # print "Negative even float"
+
+        # if number is negative and float and odd:
+            # print "Negative odd float"
+
+        # if didnt enter number but anything else:
+            # print "Only numbers are allowed"
+        
+
+# num = input("Enter a number: ")
+
+# if eval(num) > 0:
+#     if type(eval(num)) == int:
+#         if int(num) % 2 == 0:
+#             print("Positive even integer")
+#         else:
+#             print("Positive odd integer")
+
+#     elif type(eval(num)) == float:
+#         if float(num) % 2 == 0:
+#             print("Positive even float")
+#         else:
+#             print("Positive odd float")
+
+# elif eval(num) < 0:
+#     if type(eval(num)) == int:
+#         if int(num) % 2 == 0:
+#             print("Negetive even integer")
+#         else:
+#             print("Negative odd integer")
+
+#     elif type(eval(num)) == float:
+#         if float(num) % 2 == 0:
+#             print("Negative even float")
+#         else:
+#             print("Negative odd float")
+# else:
+#     print("0 is not even or odd, positive or negative")
+
+
+# print(4.6 % 2)
+
+# Ask user to enter a single alphabetic charecter:
+    # check if it is upper or lower
+    # check if it vowel or consonent
+    # if no alphabetic charecter "No alphabet" message
+
+
+char = input("Enter alphabetic charecter:  ")
+
+if char ==  char.upper():
+    if char in "AEIOU":
+        print(f"{char} is Upper and vowel")
+    else:
+        print(f"{char} is Upper and Consonent")
+
+elif char ==  char.lower():
+    if char in "aeiou":
+        print(f"{char} is Lower and vowel")
+    else:
+        print(f"{char} is Lower and Consonent")
+else:
+     print(f"{char} is now alphabetic")
